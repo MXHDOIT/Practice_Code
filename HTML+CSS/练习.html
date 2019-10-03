@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .header {
+            height: 58px;
+            line-height: 58px;
+            background-color: gray;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .content {
+            margin-top: 60px;
+        }
+        .centred {
+            width:80% ;
+            border: 1px;
+            margin: 0 auto;
+        }
+
+        ul{
+          margin: 0;
+            height: 58px;
+        }
+
+        li {
+            display: inline-block;
+            width: 90px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: aliceblue;
+        }
+
+        .content {
+            height: 500px;
+            /*background-color: aqua;*/
+            background-color: gainsboro;
+        }
+
+        .up {
+            height: 100px;
+            line-height: 100px;
+             background-color: gainsboro;
+        }
+
+        .clear{
+            clear:both;;
+        }
+    </style>
+</head>
+<body>
+    <div class=" header">
+        <div class = "centred">
+            <div style="float: left">
+                <ul>
+                    <li style="font-style: italic;color: aqua">224工作室</li>
+                    <li><a href="#">个人成长</a></li>
+                    <li><a href="#">技术讨论</a></li>
+                    <li><a href="#">项目进程</a></li>
+                </ul>
+            </div>
+            <div style="float: right">
+               <a href="#">登录</a>
+                <a href="#">注册</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="centred">
+            <div class="up" >
+                <div>
+                <img src="young.png" style="height: 100px;float:left;">
+                </div>
+                <div style="float: right">
+
+                <span style="font-size: 50px;margin-right: 40px;font-style: oblique">Never Give Up</span>
+                <span style="font-size: 50px;font-family: 仿宋">专注用心</span>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="down">
+                <div>
+                    <img src="people.jpg" style="height: 28px">
+                    <span style="font-size: 28px">主要成员</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

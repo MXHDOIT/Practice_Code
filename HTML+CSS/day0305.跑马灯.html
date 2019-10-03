@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="main">希望马新航同学每天好好学习！</div>
+
+    <script>
+        function  f1() {
+            var tag = document.getElementById('main');
+            var content = tag.innerText;
+            var f = content.charAt(0);
+            var l = content.substring(1,tag.length);
+            var new_content = l+f;
+
+            tag.innerText = l+f;
+        }
+
+        setInterval('f1()',1000);
+    </script>
+</body>
+</html>

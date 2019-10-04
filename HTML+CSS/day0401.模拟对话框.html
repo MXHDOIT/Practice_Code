@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .c1 {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: black;
+            opacity: 0.6;
+        }
+        .c2{
+            position: fixed;
+            width: 500px;
+            height:400px;
+            top: 50%;
+            left: 50%;
+            margin-top: -200px;
+            margin-left: -250px;
+            background-color: white;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="button" value="添加" onclick="add()">
+        <input type="button" value="全选" onclick="chooseAll()">
+        <input type="button" value="取消" onclick="cancalAll()">
+        <input type="button" value="反选" onclick="reverse()">
+    </div>
+    <div>
+        <table style="border: 1px solid black;">
+            <thead>
+                <tr>
+                    <th>选择</th>
+                    <th>姓名</th>
+                    <th>学号</th>
+                </tr>
+            </thead>
+            <tbody  id="tb">
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>马新航</td>
+                    <td>41709310666</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>小甜甜</td>
+                    <td>41709310999</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>碧萝莉</td>
+                    <td>41709310478</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id = "i1" class="c1 hide"></div>
+    <div id = "i2" class="c2 hide">
+        <div>
+            <input type="text ">
+            <br>
+            <input type="text">
+            <br>
+            <input type="button" value="取消" onclick="del()">
+            <input type="button" value="提交">
+
+        </div>
+    </div>
+
+    <script>
+        function add() {
+            document.getElementById('i1').classList.remove('hide');
+            document.getElementById('i2').classList.remove('hide');
+        }
+
+        function del() {
+             document.getElementById('i1').classList.add('hide');
+             document.getElementById('i2').classList.add('hide');
+        }
+
+        function chooseAll() {
+            var tbody = document.getElementById('tb');
+            var tr_list = tbody.children;
+            for(var i = 0;i < tr_list.length;i++)
+            {
+                var tr = tr_list[i];
+                  var checkbox =   tr.children[0].children[0];
+                  checkbox.checked = true;
+            }
+        }
+
+         function cancalAll() {
+            var tbody = document.getElementById('tb');
+            var tr_list = tbody.children;
+            for(var i = 0;i < tr_list.length;i++)
+            {
+                var tr = tr_list[i];
+                  var checkbox =   tr.children[0].children[0];
+                  checkbox.checked = false;
+            }
+        }
+
+         function reverse() {
+            var tbody = document.getElementById('tb');
+            var tr_list = tbody.children;
+            for(var i = 0;i < tr_list.length;i++)
+            {
+                var tr = tr_list[i];
+                  var checkbox =   tr.children[0].children[0];
+                checkbox.checked = !checkbox.checked;
+            }
+        }
+    </script>
+</body>
+</html>

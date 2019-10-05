@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .pg-header {
+            height: 48px;
+           color: white;
+            background-color: aqua;
+            line-height:48px ;
+        }
+        .pg-header .logo {
+            width: 200px;
+            height: 48px;
+            text-align: center;
+            background-color: darkseagreen;
+        }
+
+        .pg-header .user {
+            width: 100px;
+            height: 48px;
+           background-color: blueviolet;
+            color: white;
+        }
+
+        .pg-header .icons {
+            padding: 0 20px;
+        }
+
+         .pg-header .icons:hover {
+             background-color: #eeeeee;
+         }
+        .pg-header .user:hover {
+            background-color: #fff;    
+        }
+
+        .pg-header .user .a img{
+            height: 40px;
+            width: 40px;
+            margin-top: 4px;
+            border-radius: 50%
+        }
+
+        .pg-header .user .b{
+            z-index: 20;
+            /*height:48px ;*/
+            position: absolute;
+            top: 48px;
+            right: 44px;
+            background-color: white;
+            color: black;
+            width: 160px;
+            display: none;
+        }
+
+        .pg-header .user:hover .b {
+            display: block;
+        }
+        .pg-content .menu {
+            position: absolute;
+            top:48px;
+            left: 0;
+            bottom: 0;
+            width: 200px;
+            background-color: gray;
+        }
+
+        .pg-content .content {
+            position: absolute;
+            top: 48px;
+            left: 200px;
+            right: 0;
+            bottom: 0;
+            background-color: bisque;
+            overflow: auto;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .left {
+            float:left;
+        }
+    </style>
+</head>
+<body>
+    <div class="pg-header">
+        <div class="logo left">
+            孤芳自赏
+        </div>
+
+
+        <div class="user right" style="position: relative">
+
+            <a class="a" href="#">
+                <img  src="image/people.jpg">
+            </a>
+            <div class="b">
+                <a>我的资料</a><br>
+                <a>注销</a>
+            </div>
+        </div>
+         <div class="icons right">
+            <i class="fa fa-bell-o" aria-hidden="true"></i>
+             <span>5</span>
+        </div>
+        <div class="icons right">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div class="pg-content">
+        <div class="menu"></div>
+        <div class="content"></div>
+    </div>
+    <div class="pg-footer"></div>
+</body>
+</html>

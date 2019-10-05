@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .header {
+            height: 70px;
+            width: 100%;
+            background-color: black;
+        }
+
+        #txt {
+            margin: 0px auto;
+            height: 70px;
+            width: 960px;
+            color: white;
+            font-size: 45px;
+            text-align: center;
+            line-height: 70px;
+            /*background-color: red;*/
+        }
+        /*.content {*/
+        /*    height: 700px;*/
+        /*    width: 100%;*/
+        /*    background-color: red;*/
+        /*}*/
+
+        .left {
+            position: fixed;
+            top: 72px;
+            width: 300px;
+            left: 0px;
+            bottom: 20px;
+            background-color: greenyellow;
+        }
+
+        .name {
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            font-family: 仿宋;
+            font-size: 45px;
+            width: 300px;
+            background-color: chartreuse;
+        }
+        .right {
+            position: fixed;
+            top:72px;
+            right: 0px;
+            bottom: 20px;
+            left: 303px;
+            background-color: gray;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            height: 20px;
+            background-color: red;
+        }
+
+        th,td {
+            border: 1px solid black;
+            text-align: center;
+        }
+        .lady {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div id="txt">欢迎来到你温暖的家！</div>
+    </div>
+    <div class="content">
+        <div class="left">
+            <div class="information">
+                <div class="name" onclick="choose('ma')"  id='ma'>马新航</div>
+                <div class="des hide">
+                    <p>男</p>
+                    <p>1999.05.29</p>
+                    <p>篮球boy一枚</p>
+                    <p>有对象</p>
+                    <p>目标做自己所处环境中的Top</p>
+                    <img src="image/people.jpg" style="border: 0;height: 250px;width:300px;margin: 0">
+                </div>
+            </div>
+            <div class="information">
+                <div class="name" onclick="choose('lei')"  id='lei'>雷金鹏</div>
+                <div class="des hide">
+                    <p>男</p>
+                    <p>1999.05.29</p>
+                    <p>篮球boy一枚</p>
+                    <p>有对象</p>
+                    <p>目标做自己所处环境中的Top</p>
+                    <img src="image/people.jpg" style="border: 0;height: 250px;width:300px;margin: 0">
+                </div>
+            </div>
+            <div class="information">
+                <div class="name" onclick="choose('fan')"  id='fan'>范程</div>
+                <div class="des hide">
+                    <p>男</p>
+                    <p>1999.05.29</p>
+                    <p>篮球boy一枚</p>
+                    <p>有对象</p>
+                    <p>目标做自己所处环境中的Top</p>
+                    <img src="image/people.jpg" style="border: 0;height: 250px;width:300px;margin: 0">
+                </div>
+            </div>
+            <div class="information">
+                <div class="name" onclick="choose('zhu')"  id='zhu'>朱宇翔</div>
+                <div class="des hide">
+                    <p>男</p>
+                    <p>1999.05.29</p>
+                    <p>篮球boy一枚</p>
+                    <p>有对象</p>
+                    <p>目标做自己所处环境中的Top</p>
+                    <img src="image/people.jpg" style="border: 0;height: 250px;width:300px;margin: 0">
+                </div>
+            </div>
+            <div class="information">
+                <div class="name" onclick="choose('liu')"  id='liu'>刘景亮</div>
+                <div class="des hide">
+                    <p>男</p>
+                    <p>1999.05.29</p>
+                    <p>篮球boy一枚</p>
+                    <p>有对象</p>
+                    <p>目标做自己所处环境中的Top</p>
+                    <img src="image/people.jpg" style="border: 0;height: 250px;width:300px;margin: 0">
+                </div>
+            </div>
+            <div class="information">
+                <div class="name" onclick="choose('tian')"  id='tian'>田丰铭</div>
+                <div class="des">
+                    <p>男</p>
+                    <p>1999.05.29</p>
+                    <p>篮球boy一枚</p>
+                    <p>有对象</p>
+                    <p>目标做自己所处环境中的Top</p>
+                    <img src="image/people.jpg" style="border: 0;height: 250px;width:300px;margin: 0">
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="lady">
+                <table style="border:1px solid black ">
+                    <thead>
+                        <tr>
+                            <th>姓名</th>
+                            <th>是否满意</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tb">
+                        <tr>
+                            <td>马新航</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>雷金鹏</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>范程</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>朱宇翔</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>刘景亮</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>田丰铭</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <input type="button" value="全选" onclick="all()">
+                <input type="button" value="提交">
+             </div>
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+
+    <script>
+        function f1() {
+            var txt = document.getElementById('txt');
+            var t = txt.innerText;
+            var r = t.charAt(0);
+            var l = t.substring(1);
+            var newtxt = l+r;
+            txt.innerText = newtxt;
+        }
+
+        setInterval('f1()',500);
+
+        function  choose(num) {
+            var name = document.getElementById(num);
+            var out = name.parentElement.parentElement;
+            var out_list = out.children;
+            for(var i = 0;i < out_list.length;i++)
+            {
+                var now = out_list[i].children[1];
+                now.classList.add('hide');
+            }
+            name.nextElementSibling.classList.remove('hide');
+        }
+
+        function  all() {
+            var tag = document.getElementById('tb');
+            var tag_list = tag.children;
+            for(var i = 0;i < tag_list.length;i++)
+            {
+                var currt_tag = tag_list[i]
+                    var tr = currt_tag.children[1].children[0];
+                tr.checked = true;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="button" value="+" onclick="f1()">
+    <div id="i1">
+        <input type="text">
+    </div>
+    <input type="button" value="删除" onclick="func()">
+
+    <script>
+        function func() {
+            document.getElementById('i1').innerText='已删除';
+            setTimeout(function () {
+                document.getElementById('i1').innerText='';
+            },5000)
+        }
+
+        function  f1(){
+             var tag = document.createElement('input');
+             var t = document.createElement('br');
+            tag.setAttribute('type','text');
+            document.getElementById('i1').appendChild(tag);
+            document.getElementById('i1').appendChild(t);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <div style="height: 200px;width: 500px;background-color: gray;border:1px;margin: 0 auto " id="item"></div>
+    <script src="jquery-3.4.1.js"></script>
+<script>
+    var h1 = $('#item').height();
+    var h2 = $('#item').innerHeight();
+    var h3 = $('#item').outerHeight();
+    var h4 = $('#item').outerHeight(true);
+
+    console.log(h1);
+    console.log(h2);console.log(h3);console.log(h4);
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0px;
+        }
+
+        #container {
+            width: 960px;
+            margin: 0 auto;
+             background-color: red;
+        }
+         #container ul
+         {
+             list-style: none;
+         }
+        #container ul li{
+            float: left;
+            width:95px ;
+            height: 30px;
+            line-height: 30px;
+           background-color:green;
+        }
+
+        @media screen and (max-width:900px){
+            #container {
+            width: 100%;
+        }
+
+        #container ul li{
+
+            width:33.33%;
+
+        }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <ul>
+             <li>牡蛎</li>
+             <li>牡蛎</li>
+             <li>牡蛎</li>
+             <li>牡蛎</li>
+             <li>牡蛎</li>
+             <li>牡蛎</li>
+             <li>牡蛎</li>
+        </ul>
+    </div>
+</body>
+</html>

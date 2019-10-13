@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>08.列偏移</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .row>div {
+            height: 50px;
+            background: pink;
+            /* margin: 0 10px; 不能用margin会掉下来*/
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">左侧</div>
+            <!-- 偏移的份数 就是12 - 两个盒子的份数6 -->
+            <div class="col-md-3 col-md-offset-6">右侧</div>
+        </div>
+        <div class="row">
+            <!-- 如果只有一个盒子，那么偏移=(12-8)/2 -->
+            <div class="col-md-8 col-md-offset-2">中间</div>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>

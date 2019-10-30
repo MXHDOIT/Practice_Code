@@ -105,11 +105,11 @@ public class MySignalList {
     public void removeAllKey(int key){
         if(head == null){
             return;
-        }else{
-            while(head.data == key) {   //如果第一个数是要查找的
-                head = head.next;
-            }
         }
+        while(head.data == key) {   //如果第一个数是要查找的
+              head = head.next;
+          }
+       
 
         Node cur = head.next;
         Node prev = head;

@@ -471,7 +471,7 @@ public class MySingnalList {
             curNext = cur.next;
         }
 
-        return newList;
+        return newList;   
     }
 
 

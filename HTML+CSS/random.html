@@ -66,7 +66,7 @@
 </head>
 <body>
     <div class="header">
-        <p>随机选择</p>
+        <p></p>
     </div>
     <div class="footer">
         <div class="f_left bs">
@@ -82,9 +82,10 @@
     </div>
     <script src="jquery-3.4.1.js"></script>
     <script>
+        $(".header").children().eq(0).text("群里谁最帅");
         var clock;
         $(".btn1").click(function(){
-            var arr= ["金鹏","朱宇翔","老田","范程","小黑","马航"];
+            var arr= ["马新航","范程","马新航","金鹏","马新航","朱宇翔","马新航","田丰铭","马新航","小黑"];
             var i = 0;
             clock = setInterval(function(){
                 $(".header").children().eq(0).text(arr[i++%arr.length]);

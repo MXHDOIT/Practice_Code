@@ -43,6 +43,7 @@ public class BaoZiPu extends Thread{
                     }
 
                     baozi.flag = true;
+					  //包子生产完毕，唤醒消费者线程吃包子
                     baozi.notify();
                     System.out.println("好了");
 

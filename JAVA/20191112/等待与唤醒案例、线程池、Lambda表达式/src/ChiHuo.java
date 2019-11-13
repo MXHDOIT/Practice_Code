@@ -20,6 +20,7 @@ public class ChiHuo extends Thread {
 
                 System.out.println("吃货正在吃"+baozi.pi+""+baozi.xian);
                 baozi.flag = false;
+//吃完包子，让包子谱去做包子。
                 baozi.notify();
             }
         }

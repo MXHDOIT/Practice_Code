@@ -1,6 +1,9 @@
+
 1.数据类型大小byte,short,char-> int -> long -> float -> double
-2.File类可以存储文件属性，不能够读写文件
+2.File类可以存储文件属性，不能够读写文件(利用IO)
 3..	类指外部类，最大的类，修饰符有public(表示该类在项目所有类中可以被导入），default(该类只能在同一个package中使用）,abstract,final
 	内部类指位于类内部但不包括位于块、构造器、方法内，且有名称的类，修饰符有public,private,protected访问控制符，也可以用static,final关键字修饰，public和private比较简单，一个表示所有可以被所有类访问，一个表示只能被自身访问，protected修饰的成员类可以被同一个包中的类和子类访问。而default修饰的成员类只能被同一个包中的类访问。
 	局部内部类指位于块、构造器、方法内的有名称类，最多只能有final修饰
 4.子类继承父类的所有成员
+5.假设利用 return 语句从 try 语句块中退出。在方法返回前，finally子句的内容将被执行。如果 finally 子句中也有一个 return 语句，这个返回值将会覆盖原始的返回值
+6.UML ：http://www.sohu.com/a/121263400_355142

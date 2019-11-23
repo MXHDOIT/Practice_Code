@@ -7,3 +7,4 @@
 4.子类继承父类的所有成员
 5.假设利用 return 语句从 try 语句块中退出。在方法返回前，finally子句的内容将被执行。如果 finally 子句中也有一个 return 语句，这个返回值将会覆盖原始的返回值
 6.UML ：http://www.sohu.com/a/121263400_355142
+7.OutputStream这个类包含flush()方法。

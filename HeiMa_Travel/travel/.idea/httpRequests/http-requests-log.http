@@ -1,0 +1,8 @@
+POST http://localhost/travel/registUserServlet?username=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-12-30T095550.500.html
+
+###
+

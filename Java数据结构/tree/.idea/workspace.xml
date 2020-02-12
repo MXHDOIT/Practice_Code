@@ -32,11 +32,12 @@
       <file leaf-file-name="BinarySortTreeDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/binarysorttree/BinarySortTreeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="26">
+              <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
               <folding>
                 <element signature="e#208#209#0" expanded="true" />
                 <element signature="e#242#243#0" expanded="true" />
+                <element signature="method#search#0;class#Node#0" />
               </folding>
             </state>
           </provider>
@@ -93,7 +94,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="968" />
     <option name="y" value="10" />
     <option name="width" value="835" />
@@ -163,7 +164,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HuffmanCode">
+  <component name="RunManager" selected="Application.BinarySortTreeDemo">
+    <configuration name="BinarySortTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarysorttree.BinarySortTreeDemo" />
+      <module name="tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binarysorttree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="HeadSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HeadSort" />
       <module name="tree" />
@@ -189,17 +201,6 @@
       <option name="MAIN_CLASS_NAME" value="ThreadedBinaryTree" />
       <module name="tree" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="ThreadedBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadedbinarytree.ThreadedBinaryTreeDemo" />
-      <module name="tree" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threadedbinarytree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -243,19 +244,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadedBinaryTreeDemo" />
       <item itemvalue="Application.ThreadedBinaryTree" />
       <item itemvalue="Application.HeadSort" />
       <item itemvalue="Application.HuffmanTree" />
       <item itemvalue="Application.HuffmanCode" />
+      <item itemvalue="Application.BinarySortTreeDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySortTreeDemo" />
         <item itemvalue="Application.HuffmanCode" />
         <item itemvalue="Application.HuffmanTree" />
         <item itemvalue="Application.HeadSort" />
         <item itemvalue="Application.ThreadedBinaryTree" />
-        <item itemvalue="Application.ThreadedBinaryTreeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -273,19 +274,19 @@
       <workItem from="1581139195810" duration="8759000" />
       <workItem from="1581175668869" duration="10623000" />
       <workItem from="1581265029770" duration="12636000" />
-      <workItem from="1581520428604" duration="256000" />
+      <workItem from="1581520428604" duration="2473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41138000" />
+    <option name="totallyTimeSpent" value="43355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="775" y="8" width="668" height="832" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32909605" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -311,7 +312,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32909605" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,11 +612,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/binarysorttree/BinarySortTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="26">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
           <folding>
             <element signature="e#208#209#0" expanded="true" />
             <element signature="e#242#243#0" expanded="true" />
+            <element signature="method#search#0;class#Node#0" />
           </folding>
         </state>
       </provider>

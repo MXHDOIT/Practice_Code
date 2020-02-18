@@ -8,12 +8,14 @@ public class Graph {
     ArrayList<String> list;  //用于存储节点
     int[][] map;  //用于存储边
     int numOfEdge; //边数
+    boolean[] visited;//遍历是否
    //构造器
 
     public Graph(int n) {
         list = new ArrayList<String>(n);
         map = new int[n][n];
         numOfEdge = 0;
+        visited = new boolean[n];
     }
 
     public static void main(String[] args) {
@@ -35,6 +37,7 @@ public class Graph {
 
         //显示图
         graph.showGraph();
+        graph.dfs(4);
     }
 
     //返回节点的个数
@@ -51,6 +54,18 @@ public class Graph {
     public void showGraph(){
         for(int[] link:map){
             System.out.println(Arrays.toString(link));
+        }
+    }
+
+    //
+    public void dfs(int i){
+        System.out.println(list.get(i)+"->");
+        visited[i] = true;
+
+        for(int w = 0;w < list.size();w++){
+            if(map[i][w]!=0 && !visited[w]){
+                dfs(w);
+            }
         }
     }
 

@@ -56,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/avl/Node.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
@@ -68,6 +68,29 @@
                 <element signature="method#leftRotate#0;class#Node#0" />
                 <element signature="method#infixOrder#0;class#Node#0" />
                 <element signature="method#toString#0;class#Node#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bit/BTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="160" column="20" lean-forward="true" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
+              <folding>
+                <element signature="e#1419#1420#0" expanded="true" />
+                <element signature="e#1448#1449#0" expanded="true" />
+                <element signature="e#1680#1681#0" expanded="true" />
+                <element signature="e#1716#1717#0" expanded="true" />
+                <element signature="e#2023#2024#0" expanded="true" />
+                <element signature="e#2060#2061#0" expanded="true" />
+                <element signature="e#2404#2405#0" expanded="true" />
+                <element signature="e#2437#2438#0" expanded="true" />
+                <element signature="e#2809#2810#0" expanded="true" />
+                <element signature="e#2837#2838#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/avl/AVLTree.java" />
         <option value="$PROJECT_DIR$/src/avl/AVLTreeDemo.java" />
         <option value="$PROJECT_DIR$/src/avl/Node.java" />
+        <option value="$PROJECT_DIR$/src/bit/BTree.java" />
       </list>
     </option>
   </component>
@@ -127,8 +151,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1027" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1026" />
     <option name="y" value="5" />
     <option name="width" value="835" />
     <option name="height" value="1040" />
@@ -138,9 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,10 +175,18 @@
               <item name="tree" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bit" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AVLTreeDemo">
+  <component name="RunManager" selected="Application.BTree">
     <configuration name="AVLTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="avl.AVLTreeDemo" />
       <module name="tree" />
@@ -193,6 +223,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="avl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="BTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bit.BTree" />
+      <module name="tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,11 +248,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="HeadSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HeadSort" />
-      <module name="tree" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="HuffmanCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="huffmancode.HuffmanCode" />
@@ -271,19 +307,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.HeadSort" />
       <item itemvalue="Application.HuffmanTree" />
       <item itemvalue="Application.HuffmanCode" />
       <item itemvalue="Application.BinarySortTreeDemo" />
       <item itemvalue="Application.AVLTreeDemo" />
+      <item itemvalue="Application.BTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BTree" />
         <item itemvalue="Application.AVLTreeDemo" />
         <item itemvalue="Application.BinarySortTreeDemo" />
         <item itemvalue="Application.HuffmanCode" />
         <item itemvalue="Application.HuffmanTree" />
-        <item itemvalue="Application.HeadSort" />
       </list>
     </recent_temporary>
   </component>
@@ -305,43 +341,45 @@
       <workItem from="1581558466189" duration="5465000" />
       <workItem from="1581740177645" duration="4782000" />
       <workItem from="1581908270437" duration="61000" />
+      <workItem from="1582903924391" duration="4165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53663000" />
+    <option name="totallyTimeSpent" value="57828000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32905984" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.24717514" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.26541555" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" weight="0.65737706" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
       <window_info id="Structure" order="1" sideWeight="0.5010526" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.5010526" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3983051" />
+      <window_info id="Favorites" order="2" sideWeight="0.5010526" side_tool="true" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32905984" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +418,7 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="36" />
+      <option name="time" value="42" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -388,6 +426,42 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/binarysorttree/BinarySortTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4075">
+          <caret line="165" selection-start-line="134" selection-start-column="3" selection-end-line="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/avl/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/avl/AVLTreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/avl/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="method#rightRotate#0;class#Node#0" />
+            <element signature="method#leftRotate#0;class#Node#0" />
+            <element signature="method#infixOrder#0;class#Node#0" />
+            <element signature="method#toString#0;class#Node#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/binarysorttree/BinarySortTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4075">
@@ -729,6 +803,27 @@
             <element signature="method#leftRotate#0;class#Node#0" />
             <element signature="method#infixOrder#0;class#Node#0" />
             <element signature="method#toString#0;class#Node#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bit/BTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="160" column="20" lean-forward="true" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
+          <folding>
+            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#2023#2024#0" expanded="true" />
+            <element signature="e#2060#2061#0" expanded="true" />
+            <element signature="e#2404#2405#0" expanded="true" />
+            <element signature="e#2437#2438#0" expanded="true" />
+            <element signature="e#2809#2810#0" expanded="true" />
+            <element signature="e#2837#2838#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
           </folding>
         </state>
       </provider>

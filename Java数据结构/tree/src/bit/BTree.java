@@ -1,5 +1,9 @@
 package bit;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
 public class BTree {
     TNode root = null;
 
@@ -29,6 +33,25 @@ public class BTree {
             preOrder(root.left);
             preOrder(root.right);
         }
+    }
+    private List<TNode> fPreOrder(TNode root){
+        if (root == null)
+            return null;
+        Stack<TNode> stack = new Stack<TNode>();
+        List<TNode> list = new ArrayList<TNode>();
+
+        stack.push(root);
+        while (!stack.empty()){
+            TNode node = stack.pop();
+            list.add(node);
+            if(node.right!=null){
+                stack.push(node.right);
+            }
+            if(node.left!=null){
+                stack.push(node.left);
+            }
+        }
+        return list;
     }
 
     //中序遍历
@@ -133,7 +156,7 @@ public class BTree {
 
     public static void main(String[] args) {
         BTree bTree = new BTree();
-//        bTree.preOrder();
+        bTree.preOrder();
 //        bTree.infixOrder();
 //        bTree.postOrder();
 //        System.out.println("一共"+bTree.getNodeCount()+"个节点");
@@ -141,6 +164,9 @@ public class BTree {
 //        System.out.println("树高："+bTree.getTreeHeight());
         System.out.println(bTree.getKCount(3));
         System.out.println(bTree.find(1));
+        for (int i = 0; i < bTree.fPreOrder(bTree.root).size(); i++) {
+            System.out.println(bTree.fPreOrder(bTree.root).get(i));
+        }
     }
 }
 

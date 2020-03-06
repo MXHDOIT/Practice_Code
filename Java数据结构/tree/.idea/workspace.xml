@@ -73,25 +73,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bit/BTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#969#976#0" expanded="true" />
-                <element signature="e#969#976#0" expanded="true" />
-                <element signature="e#2142#2143#0" expanded="true" />
-                <element signature="e#2183#2184#0" expanded="true" />
-                <element signature="e#2404#2405#0" expanded="true" />
-                <element signature="e#2445#2446#0" expanded="true" />
-                <element signature="e#2746#2747#0" expanded="true" />
-                <element signature="e#2788#2789#0" expanded="true" />
-                <element signature="e#3024#3025#0" expanded="true" />
-                <element signature="e#3064#3065#0" expanded="true" />
-                <element signature="e#3429#3430#0" expanded="true" />
-                <element signature="e#3466#3467#0" expanded="true" />
+                <element signature="e#976#983#0" expanded="true" />
+                <element signature="e#1027#1034#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="43" lean-forward="true" selection-end-line="43" />
+              <folding>
+                <element signature="e#370#379#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/avl/AVLTreeDemo.java" />
         <option value="$PROJECT_DIR$/src/avl/Node.java" />
         <option value="$PROJECT_DIR$/src/bit/BTree.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
       </list>
     </option>
   </component>
@@ -152,9 +155,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1025" />
-    <option name="y" value="5" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="27" />
     <option name="width" value="835" />
     <option name="height" value="1040" />
   </component>
@@ -163,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,6 +189,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BTree">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="AVLTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="avl.AVLTreeDemo" />
       <module name="tree" />
@@ -261,8 +263,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HuffmanTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HuffmanTree" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="tree" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -308,19 +310,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.HuffmanTree" />
       <item itemvalue="Application.HuffmanCode" />
       <item itemvalue="Application.BinarySortTreeDemo" />
       <item itemvalue="Application.AVLTreeDemo" />
       <item itemvalue="Application.BTree" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.BTree" />
         <item itemvalue="Application.AVLTreeDemo" />
         <item itemvalue="Application.BinarySortTreeDemo" />
         <item itemvalue="Application.HuffmanCode" />
-        <item itemvalue="Application.HuffmanTree" />
       </list>
     </recent_temporary>
   </component>
@@ -344,14 +346,16 @@
       <workItem from="1581908270437" duration="61000" />
       <workItem from="1582903924391" duration="4165000" />
       <workItem from="1582992242609" duration="2532000" />
+      <workItem from="1583479134813" duration="2367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60360000" />
+    <option name="totallyTimeSpent" value="62727000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="22" y="0" width="668" height="832" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -363,11 +367,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24717514" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24928775" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" weight="0.65737706" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.55737704" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
       <window_info id="Structure" order="1" sideWeight="0.5010526" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -435,6 +439,33 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/avl/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="method#rightRotate#0;class#Node#0" />
+            <element signature="method#leftRotate#0;class#Node#0" />
+            <element signature="method#infixOrder#0;class#Node#0" />
+            <element signature="method#toString#0;class#Node#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bit/BTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1675">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#976#983#0" expanded="true" />
+            <element signature="e#1027#1034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/binarysorttree/BinarySortTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4075">
@@ -477,18 +508,8 @@
           <caret line="160" column="20" lean-forward="true" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#969#976#0" expanded="true" />
-            <element signature="e#969#976#0" expanded="true" />
-            <element signature="e#2142#2143#0" expanded="true" />
-            <element signature="e#2183#2184#0" expanded="true" />
-            <element signature="e#2404#2405#0" expanded="true" />
-            <element signature="e#2445#2446#0" expanded="true" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2788#2789#0" expanded="true" />
-            <element signature="e#3024#3025#0" expanded="true" />
-            <element signature="e#3064#3065#0" expanded="true" />
-            <element signature="e#3429#3430#0" expanded="true" />
-            <element signature="e#3466#3467#0" expanded="true" />
+            <element signature="e#976#983#0" expanded="true" />
+            <element signature="e#1027#1034#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -609,9 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
           <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,9 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="class#ArrBinaryTree#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -629,9 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2775">
           <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
-          <folding>
-            <element signature="method#inThreadOrder#0;class#ThreadedBinaryTree#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,22 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1675">
           <caret line="68" column="26" lean-forward="true" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#zipFile#0;class#HuffmanCode#0" />
-            <element signature="docComment;method#decode#0;class#HuffmanCode#0" />
-            <element signature="method#byteToBitString#0;class#HuffmanCode#0" />
-            <element signature="docComment;method#huffmanZip#0;class#HuffmanCode#0" />
-            <element signature="method#huffmanZip#0;class#HuffmanCode#0" />
-            <element signature="docComment;method#zip#0;class#HuffmanCode#0" />
-            <element signature="method#zip#0;class#HuffmanCode#0" />
-            <element signature="method#getCodes#0;class#HuffmanCode#0" />
-            <element signature="docComment;method#preOrder#0;class#HuffmanCode#0" />
-            <element signature="method#preOrder#0;class#HuffmanCode#0" />
-            <element signature="method#getNodes#0;class#HuffmanCode#0" />
-            <element signature="method#createHuffmanTree#0;class#HuffmanCode#0" />
-            <element signature="class#Node#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,9 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="class#ArrBinaryTree#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,9 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2775">
           <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
-          <folding>
-            <element signature="method#inThreadOrder#0;class#ThreadedBinaryTree#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,9 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
           <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,9 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="class#ArrBinaryTree#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -760,9 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="class#ArrBinaryTree#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,9 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2775">
           <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
-          <folding>
-            <element signature="method#inThreadOrder#0;class#ThreadedBinaryTree#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -799,9 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,22 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#zipFile#0;class#HuffmanCode#0" />
-            <element signature="docComment;method#decode#0;class#HuffmanCode#0" />
-            <element signature="method#byteToBitString#0;class#HuffmanCode#0" />
-            <element signature="docComment;method#huffmanZip#0;class#HuffmanCode#0" />
-            <element signature="method#huffmanZip#0;class#HuffmanCode#0" />
-            <element signature="docComment;method#zip#0;class#HuffmanCode#0" />
-            <element signature="method#zip#0;class#HuffmanCode#0" />
-            <element signature="method#getCodes#0;class#HuffmanCode#0" />
-            <element signature="docComment;method#preOrder#0;class#HuffmanCode#0" />
-            <element signature="method#preOrder#0;class#HuffmanCode#0" />
-            <element signature="method#getNodes#0;class#HuffmanCode#0" />
-            <element signature="method#createHuffmanTree#0;class#HuffmanCode#0" />
-            <element signature="class#Node#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,21 +836,21 @@
     <entry file="file://$PROJECT_DIR$/src/bit/BTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#969#976#0" expanded="true" />
-            <element signature="e#969#976#0" expanded="true" />
-            <element signature="e#2142#2143#0" expanded="true" />
-            <element signature="e#2183#2184#0" expanded="true" />
-            <element signature="e#2404#2405#0" expanded="true" />
-            <element signature="e#2445#2446#0" expanded="true" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2788#2789#0" expanded="true" />
-            <element signature="e#3024#3025#0" expanded="true" />
-            <element signature="e#3064#3065#0" expanded="true" />
-            <element signature="e#3429#3430#0" expanded="true" />
-            <element signature="e#3466#3467#0" expanded="true" />
+            <element signature="e#976#983#0" expanded="true" />
+            <element signature="e#1027#1034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="43" lean-forward="true" selection-end-line="43" />
+          <folding>
+            <element signature="e#370#379#0" expanded="true" />
           </folding>
         </state>
       </provider>

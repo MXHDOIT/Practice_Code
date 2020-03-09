@@ -1,8 +1,6 @@
 package bit;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class BTree {
     TNode root = null;
@@ -54,6 +52,23 @@ public class BTree {
         return list;
     }
 
+    private void fPreOrder1(TNode root){
+        if (root == null)
+            return ;
+        Stack<TNode> s = new Stack<>();
+        s.push(root);
+
+        while (!s.empty()){
+            TNode cur = s.pop();
+            while(cur != null){
+                System.out.println(cur.val);
+                if(cur.right != null){
+                    s.push(cur.right);
+                }
+                cur = cur.left;
+            }
+        }
+    }
     //中序遍历
     public void infixOrder(){
         System.out.println("中序遍历：");
@@ -152,6 +167,44 @@ public class BTree {
             return find(root.right,val);
         }
         return null;
+    }
+
+
+    // 判断一棵树是不是完全二叉树
+    boolean isCompleteTree(TNode root){
+        if(root == null){
+            return false;
+        }
+
+        Queue<TNode> queue = new LinkedList<TNode>();
+        ((LinkedList<TNode>) queue).add(root);
+
+        while(!queue.isEmpty()){
+            TNode node = ((LinkedList<TNode>) queue).pollFirst();
+
+            if(node.left == null && node.right != null){
+                return false;
+            }else if(node.left != null && node.right != null){
+                ((LinkedList<TNode>) queue).add(node.left);
+                ((LinkedList<TNode>) queue).add(node.right);
+            }else if(node.left != null && node.right == null){
+                ((LinkedList<TNode>) queue).add(node.left);
+                break;
+            }else{
+                break;
+            }
+        }
+
+        while(!queue.isEmpty()){
+            TNode node = ((LinkedList<TNode>) queue).pollFirst();
+
+            if(node.right == null && node.left == null){
+
+            }else{
+                return false;
+            }
+        }
+        return true;
     }
 
     public static void main(String[] args) {

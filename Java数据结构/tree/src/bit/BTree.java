@@ -1,5 +1,7 @@
 package bit;
 
+import avl.Node;
+
 import java.util.*;
 
 public class BTree {
@@ -96,6 +98,36 @@ public class BTree {
             System.out.print(root.val+" ");
         }
     }
+    public void postOrderNor(){
+        if(null == root){
+            return ;
+        }
+
+        TNode cur = root;
+        TNode prev = null; //标记刚刚遍历过的结点
+        Stack<TNode> s = new Stack<>();
+
+        while(cur != root || !s.isEmpty()){
+            //保存所经路径的所有结点
+            while(null != cur){
+                s.push(cur);
+                cur = cur.left;
+            }
+
+            //获取cur子树的根
+            TNode top = s.peek();
+
+            //遍历top的右子树
+            if(null == top.right || top.right == prev){
+                System.out.print(top.val+" ");
+                prev = top;
+                s.pop();
+            }else {
+                cur = top.right;
+            }
+        }
+    }
+
 
     //返回总共多少节点
     public int getNodeCount(){

@@ -84,16 +84,23 @@
     <script>
         $(".header").children().eq(0).text("谁喝酒");
         var clock;
+		var flag = false;
         $(".btn1").click(function(){
-            var arr= ["马少","张少","郭少","张二少"];
-            var i = 0;
-            clock = setInterval(function(){
-                $(".header").children().eq(0).text(arr[i++%arr.length]);
-            },100)
+			if(!flag){
+				var arr= ["马少","张少","郭少","张二少"];
+				var i = 0;
+				flag = true;
+				clock = setInterval(function(){
+					$(".header").children().eq(0).text(arr[i++%arr.length]);
+				},100)
+			}
         })
 
         $(".btn2").click(function(){
-            clearInterval(clock);
+			if(flag){
+				flag = false;
+				clearInterval(clock);
+			}
         })
     </script>
 </body>
